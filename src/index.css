@@ -1,0 +1,14 @@
+:root{
+    --light-gray:#EDEDED;
+    --gray:#C4C4C4;
+    --black:#000000;
+    --dark-yellow:#443804;
+    --light-blue:#39C2F9;
+    --dark-blue:#184759;
+    --orange:#D92D07;
+    --yellow:#B49918;
+}
+
+body{
+    font-family: 'Raleway', Roboto, sans-serif;
+}

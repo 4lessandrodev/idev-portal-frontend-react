@@ -1,0 +1,27 @@
+.background-menu{
+    background-color: var(--dark-blue);
+}
+
+#menu{
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#menu a{
+    color: var(--light-gray);
+}
+
+#menu .active{
+    background-color: var(--orange);
+}
+
+@media only screen and (min-width: 900px) {
+    #menu{
+        min-width: 50%;
+        max-width: 50%;
+    }
+  }

@@ -1,0 +1,27 @@
+.nav-background{
+    background-color: var(--light-blue);
+}
+
+#navbar .logo{
+    max-width: 70px;
+}
+
+#navbar .username{
+    color: var(--light-gray);
+    border: 1px solid var(--light-gray);
+    padding: 3px 7px;
+    border-radius: 7px;
+}
+
+#navbar .coin{
+    color: var(--light-gray);
+    font-size: 11px;
+}
+
+#navbar .icon{
+padding: 0 0 0 14px;
+}
+
+#navbar .username:hover{
+    text-decoration: none;
+}
