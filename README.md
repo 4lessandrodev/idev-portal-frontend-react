@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frontend do portal Idev
 
-## Available Scripts
+###### O objetivo é criar um portal para publicação de conteúdo de estudos sobre programação e possibilitar aos membros a terem acesso aos conteúdos, desafios e questionários. Todo o portal é baseado em gamefication e por isso existe um ranking
 
-In the project directory, you can run:
+##### Comunidade de estudos de programação
 
-### `yarn start`
+###### Projeto no figma
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Clique aqui](https://www.figma.com/proto/pcKXkGzI8VrrmDPcv1V9cN/Comunidade-IDEV?node-id=0%3A3&scaling=scale-down)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+###### Tecnologias
 
-### `yarn test`
+- ReactJS
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###### Api
 
-### `yarn build`
+<http://idev-app.herokuapp.com/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###### Preview das telas
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[![IMAGEM](readme/LOGIN.jpg "IMAGEM")](http://figma "IMAGEM")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![IMAGEM](readme/SALA.jpg "IMAGEM")](http://figma "IMAGEM")
 
-### `yarn eject`
+[![IMAGEM](readme/AULA-SELECIONADA.jpg "IMAGEM")](http://figma "IMAGEM")
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[![IMAGEM](readme/DESAFIOS.jpg "IMAGEM")](http://figma "IMAGEM")
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![IMAGEM](readme/DESAFIO-SELECIONADO.jpg "IMAGEM")](http://figma "IMAGEM")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[![IMAGEM](readme/ADICIONAR-MEMBRO.jpg "IMAGEM")](http://figma "IMAGEM")
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[![IMAGEM](readme/ENVIO-PROJETO.jpg "IMAGEM")](http://figma "IMAGEM")
 
-## Learn More
+[![IMAGEM](readme/AVALIACOES.jpg "IMAGEM")](http://figma "IMAGEM")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![IMAGEM](readme/ENVIO-FEEDBACK.jpg "IMAGEM")](http://figma "IMAGEM")
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![IMAGEM](readme/RANKING.jpg "IMAGEM")](http://figma "IMAGEM")
 
-### Code Splitting
+[![IMAGEM](readme/POSICAO.jpg "IMAGEM")](http://figma "IMAGEM")
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+[![IMAGEM](readme/PERFIL.jpg "IMAGEM")](http://figma "IMAGEM")
 
-### Analyzing the Bundle Size
+[![IMAGEM](readme/TIMELINE.jpg "IMAGEM")](http://figma "IMAGEM")
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[![IMAGEM](readme/AJUDA.jpg "IMAGEM")](http://figma "IMAGEM")
