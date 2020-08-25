@@ -1,0 +1,26 @@
+.card__component__header{
+   min-height: 42px;
+   border-radius: 14px;
+}
+
+.card__component__body{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.btn__card__component{
+    background-color: transparent;
+    border-radius: 14px;
+    margin-top: 14px;
+    align-self: flex-end;
+    justify-self: right;
+}
+
+.card__component{
+    border-radius: 14px;
+    margin: 7px 7px 7px 0;
+    min-width: 340px;
+    box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.36);
+}
+

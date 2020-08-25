@@ -2,3 +2,9 @@
     font-size: 1.7rem;
     padding: 2rem 0 1rem 0;
 }
+
+.sala__main{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
