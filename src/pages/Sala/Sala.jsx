@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
+import Nav from '../../components/Nav/Nav';
 import Menu from '../../components/Menu/Menu';
 import Sala from '../../components/Templates/Sala/Sala';
 
 export default props => (
     <>
         <header>
-            <Header />
+            <Nav />
             <Menu />
         </header>
         <main>

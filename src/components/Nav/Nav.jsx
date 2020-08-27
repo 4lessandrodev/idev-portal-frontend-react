@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Nav.css';
 import Logo from './logowhite.png';
 
 export default props => (
