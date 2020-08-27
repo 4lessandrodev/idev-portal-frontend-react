@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.css';
+import Field from '../../Field/Field';
 
 export default props => (
     
@@ -14,15 +15,9 @@ export default props => (
             <main>
                 <form className="login__form">
 
-                    <div className="form-group">
-                        <label htmlFor="email">Email</label>
-                        <input type="email" className="form-control" name="email" id="email"/>
-                    </div>
-
-                    <div className="form-group">
-                        <label htmlFor="password">Senha</label>
-                        <input type="password" className="form-control" name="password" id="password"/>
-                    </div>
+                    <Field label="Email" type="email" name="email" />
+                    
+                    <Field  label="Senha" type="password" name="password" />
     
                     <input type="submit" className="btn btn-lg btn-block login__form__btn-submit" value="Entrar" />
     
