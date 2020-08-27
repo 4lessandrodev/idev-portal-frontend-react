@@ -10,6 +10,7 @@
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
+    margin-bottom: 0;
 }
 
 #menu a{
