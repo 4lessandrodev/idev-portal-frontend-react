@@ -3,7 +3,7 @@ import './Menu.css';
 
 export default props => (
     <>
-        <div className="background-menu">
+        <nav className="background-menu">
             <ul id="menu">
                 <li className="nav-item active">
                     <a className="nav-link" href="#">Sala <span className="sr-only">Atual</span></a>
@@ -24,6 +24,6 @@ export default props => (
                     <a className="nav-link" href="#">Sair</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </>
 );

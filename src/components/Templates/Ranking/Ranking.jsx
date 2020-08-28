@@ -1,6 +1,9 @@
 import React from 'react';
 import './Ranking.css';
 import User from '../../Ranking/User/User';
+import Search from '../../Ranking/List/Search/Search';
+import Table from '../../Ranking/List/Table/Table';
+import Footer from '../../Footer/Footer';
 
 export default props => (
   
@@ -17,6 +20,13 @@ export default props => (
                 <User name="Lucas" points="370" position="#3 - Lugar" image="https://img.r7.com/images/rafael-rizzojpg-24032018225528021"/>
             </main>
         </section>
+        <section className="container col-lg-6 col-sm-12 col-md-8 ranking__section">
+            <main className="ranking__section__main">
+                <Search />
+                <Table />
+            </main>
+        </section>
+        <Footer />
     </>
     
 );

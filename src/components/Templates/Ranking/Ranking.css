@@ -28,3 +28,20 @@
     bottom: 42px;
     flex-wrap: wrap;
 }
+
+.ranking__list{
+    max-width: 40%;
+    width: 40%;
+}
+
+.ranking__section{
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 14px;
+    box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.38);
+}
+
+.ranking__section__main{
+    margin: 0 0 42px 0;
+    padding: 7px;
+}
