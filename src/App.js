@@ -3,6 +3,7 @@ import './App.css';
 import Sala from './pages/Sala/Sala';
 import Login from './pages/Login/Login';
 import Ranking from './pages/Ranking/Ranking';
+import UserRanking from './pages/Ranking/UserRanking';
 import './normalize.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <>
       {/*<Sala />*/}
       {/*<Login/>*/}
-      <Ranking />
+      {/*<Ranking />*/}
+      <UserRanking />
     </>
   );
 }

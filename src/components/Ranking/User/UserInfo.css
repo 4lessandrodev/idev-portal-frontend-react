@@ -1,0 +1,32 @@
+.section__info{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5%;
+}
+
+.section__info__contacts, .section__info__ponts{
+    display: flex;
+    padding: 2rem 0;
+}
+
+.section__info__contacts{
+    border-bottom: 7px solid var(--dark-gray);
+}
+
+.section__info__contacts__item, .section__info__points__item{
+    padding: 0 5rem;
+    font-size: 1.5rem;
+}
+
+.section__info__contacts__item .link{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.section__info__contacts__item .link:hover{
+    cursor: pointer;
+    color: var(--light-blue);
+}
