@@ -1,0 +1,8 @@
+.generic__button{
+    height: 57px;
+    width: 272px;
+    margin: auto;
+    padding: 7px;
+    border-radius: 14px;
+    border: 1px solid var(--yellow);
+}

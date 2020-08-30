@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 28px;
+    margin: 32px;
 }
 .ranking__user__header__img{
     width: 140px;
@@ -23,20 +23,20 @@
 
 .ranking__user__info__username{
     color: var(--orange);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0;
     padding: 0;
 }
 .ranking__user__info__points{
     color: var(--yellow);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0;
     padding: 0;
 }
 
 .ranking__user__info__position{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: var(--black);
     padding: 7px;
     border-radius: 7px;
