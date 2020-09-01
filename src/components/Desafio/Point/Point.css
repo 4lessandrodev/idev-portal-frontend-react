@@ -1,0 +1,10 @@
+.point__info{
+    display: flex;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.point__info__separator{
+    padding: 10px;
+    font-size: 1rem;
+}

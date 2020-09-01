@@ -1,5 +1,10 @@
 import React from 'react';
 import Button from '../../Desafio/Button/Button';
+import Icon from '../../Desafio/Icon/Icon';
+import Point from '../../Desafio/Point/Point';
+import Status from '../../Desafio/Status/Status';
+import Timer from '../../Desafio/Timer/Timer';
+import Content from '../../Desafio/Content/Content';
 import './Desafio.css';
 
 export default props => (
@@ -7,27 +12,21 @@ export default props => (
     <section className="col-12 desafio__section">
         <article className="col-lg-4 col-md-6 col-sm-12 desafio__section__article">
             <div>
-                icone
+                <Icon />
                 <Button label="Cadastrar equipe"/>
             </div>
             <div>
-                points / points
-                status
+                <Point value={140}/>
+                <Status description="Em aberto"/>
             </div>
             <div>
-                timer
-                em aberto
+                <Timer />
             </div>
             <div>
                 <Button label="Enviar projeto"/>
             </div>
         </article>
-        <article className="col-lg-8 col-md-6 col-sm-12 desafio__section__article">
-            titulo
-            subtitulo
-            texto Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo labore cupiditate soluta assumenda velit nesciunt quo quas fuga adipisci quia, perferendis illo tenetur dicta illum architecto laborum, esse recusandae autem.
-            imagem
-        </article>
+        <Content />
     </section>
 
 )
