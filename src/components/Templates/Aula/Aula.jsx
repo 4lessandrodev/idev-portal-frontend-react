@@ -3,10 +3,10 @@ import Paginator from '../../Aula/Paginator/Paginator';
 import Title from '../../Aula/Content/Titulo/Titulo';
 import Subtitulo from '../../Aula/Content/Subtitulo/Subtitulo';
 import Texto from '../../Aula/Content/Texto/Texto';
-import './Aula.css';
-import Slide from '../../Aula/Slides/Slide';
+import Slide from '../../Aula/Content/Slides/Slide';
 import Codigo from '../../Aula/Content/Codigo/Codigo';
 import Video from '../../Aula/Content/Video/Video';
+import './Aula.css';
 
 export default props => (
  
@@ -29,10 +29,11 @@ export default props => (
             <Texto text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius dolorum nostrum pariatur corrupti fuga, animi, accusamus dolorem sunt corporis quasi itaque ex sed excepturi facilis quam nobis magni, autem quae?" />
             
             <Codigo code="if(verdadeiro){ //codigo } else { //codigo }"/>
+            
+            <Video link="https://www.youtube.com/embed/b4575qH0Vbc"/>
+            
+            <Subtitulo subtitle="Teste seus conhecimentos" />
 
-            
-            <Video />
-            
         </article>
         <footer className="footer__aula">
             <Paginator />
