@@ -5,6 +5,7 @@ import Login from './pages/Login/Login';
 import Ranking from './pages/Ranking/Ranking';
 import UserRanking from './pages/Ranking/UserRanking';
 import Desafio from './pages/Desafios/Desafio';
+import Aula from './pages/Aula/Aula';
 import './normalize.css';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/*<Login/>*/}
       {/*<Ranking />*/}
       {/*<UserRanking />*/}
-      <Desafio />
+      {/*<Desafio /> */}
+      <Aula />
     </>
   );
 }
