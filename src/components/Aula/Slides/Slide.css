@@ -1,0 +1,11 @@
+.aula__slide{
+    max-width: 100%;
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.iframe__embed{
+    max-width: 100%;
+    width: 100%;
+    min-height: 94vh;
+}

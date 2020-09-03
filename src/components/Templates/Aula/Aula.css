@@ -1,3 +1,9 @@
 .aula__content{
     margin-top: 3rem;
 }
+
+.footer__aula{
+    display: flex;
+    background-color: var(--white);
+    justify-content: flex-end;
+}
