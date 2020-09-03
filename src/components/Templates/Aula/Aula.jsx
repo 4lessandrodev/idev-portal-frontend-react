@@ -6,6 +6,7 @@ import Texto from '../../Aula/Content/Texto/Texto';
 import './Aula.css';
 import Slide from '../../Aula/Slides/Slide';
 import Codigo from '../../Aula/Content/Codigo/Codigo';
+import Video from '../../Aula/Content/Video/Video';
 
 export default props => (
  
@@ -29,6 +30,9 @@ export default props => (
             
             <Codigo code="if(verdadeiro){ //codigo } else { //codigo }"/>
 
+            
+            <Video />
+            
         </article>
         <footer className="footer__aula">
             <Paginator />
