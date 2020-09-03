@@ -25,9 +25,8 @@
     color: var(--white);
     text-transform: none;
     text-decoration: none;
-
 }
 
 .paginator__item:hover{
-    background-color: var(--light-blue);
+    background-color: var(--light-blue) !important;
 }
