@@ -1,0 +1,7 @@
+.aula__codigo{
+    display: flex;
+    overflow: hidden;
+    background-color: var(--black);
+    padding: 14px;
+    margin: 0;
+}
