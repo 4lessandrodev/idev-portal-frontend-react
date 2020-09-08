@@ -38,8 +38,3 @@
     padding: 0 5px;
 }
 
-.login__form__btn-submit{
-    margin: 10% 0;
-    background-color: var(--light-blue);
-    color: var(--light-gray);
-}

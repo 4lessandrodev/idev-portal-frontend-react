@@ -1,6 +1,8 @@
 import React from 'react';
 import './Login.css';
 import Field from '../../Field/Field';
+import Button from '../../Button/Button';
+
 
 export default props => (
     
@@ -19,7 +21,7 @@ export default props => (
                     
                     <Field  label="Senha" type="password" name="password" />
     
-                    <input type="submit" className="btn btn-lg btn-block login__form__btn-submit" value="Entrar" />
+                    <Button value="Entrar" />
     
                 </form>
             </main>

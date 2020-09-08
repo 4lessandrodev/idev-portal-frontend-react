@@ -16,7 +16,7 @@ function App() {
       {/*<Ranking />*/}
       {/*<UserRanking />*/}
       {/*<Desafio /> */}
-      <Aula />
+      {<Aula />}
     </>
   );
 }
