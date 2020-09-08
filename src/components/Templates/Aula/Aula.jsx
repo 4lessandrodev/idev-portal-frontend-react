@@ -7,6 +7,7 @@ import Slide from '../../Aula/Content/Slides/Slide';
 import Codigo from '../../Aula/Content/Codigo/Codigo';
 import Video from '../../Aula/Content/Video/Video';
 import './Aula.css';
+import Questionario from '../../Aula/Questionario/Questionario/Questionario';
 
 export default props => (
  
@@ -34,6 +35,9 @@ export default props => (
             
             <Subtitulo subtitle="Teste seus conhecimentos" />
 
+        </article>
+        <article>
+            <Questionario />
         </article>
         <footer className="footer__aula">
             <Paginator />

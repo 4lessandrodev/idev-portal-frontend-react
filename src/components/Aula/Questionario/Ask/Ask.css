@@ -1,0 +1,10 @@
+.ask__tentativas__status{
+    color: var(--orange);
+    font-weight: 700;
+    padding-top: 14px;
+    font-size: 1.3rem;
+}
+
+.ask__content{
+    font-size: 1.3rem;
+}
